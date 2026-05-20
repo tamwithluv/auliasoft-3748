@@ -1614,3 +1614,45 @@ a {
   opacity: 1;
   background: rgba(255,255,255,0.15);
 }
+
+.comparison-section {
+  background: #f8fafc;
+}
+
+.comparison-table th,
+.comparison-table td {
+  vertical-align: middle;
+  padding: 18px;
+  font-size: 15px;
+}
+
+.comparison-table th {
+  text-align: center;
+}
+
+.comparison-table td:first-child {
+  background: #f1f5f9;
+  font-weight: 600;
+  width: 220px;
+}
+
+.comparison-table tr:hover {
+  background: #f9fafb;
+  transition: 0.3s;
+}
+
+.comparison-table h4 {
+  font-size: 22px;
+}
+
+@media (max-width: 768px) {
+  .comparison-table th,
+  .comparison-table td {
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  .comparison-table h4 {
+    font-size: 18px;
+  }
+}
